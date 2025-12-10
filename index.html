@@ -3,46 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <title>Item kereső</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: Arial, sans-serif; margin: 24px; }
-    h1 { margin-bottom: 12px; }
-    .box { display: flex; gap: 12px; align-items: center; }
-    input { padding: 8px; width: 320px; }
-    #results { margin-top: 16px; }
-    .item { padding: 6px 8px; border-bottom: 1px solid #eee; }
-    .muted { color: #666; }
+    body {
+      margin: 0;
+      height: 100vh;
+      background: url("1059910.jpg") no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;   /* függőlegesen középre */
+      align-items: center;       /* vízszintesen középre */
+      height: 100vh;             /* teljes képernyő */
+      text-shadow: 1px 1px 3px black; /* olvashatóbb szöveg */
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    input {
+      padding: 10px;
+      width: 300px;
+      border-radius: 8px;
+      border: none;
+      font-size: 16px;
+    }
+    #results {
+      margin-top: 20px;
+      background: rgba(0,0,0,0.5);
+      padding: 10px;
+      border-radius: 8px;
+      width: 320px;
+    }
   </style>
 </head>
 <body>
-  <h1>Item kereső</h1>
-  <div class="box">
+  <div class="container">
+    <h1>Item kereső</h1>
     <input type="text" id="searchBox" placeholder="Írd be az item nevét...">
-    <span id="status" class="muted">Adatok betöltése...</span>
+    <div id="results"></div>
   </div>
-  <div id="results"></div>
 
-  <!-- PapaParse: egyszerű CSV-beolvasás -->
+  <!-- PapaParse: CSV beolvasás -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
   <script>
     let data = [];
 
-    // CSV betöltése az index.html-lel azonos mappából
+    // CSV betöltése
     Papa.parse("items.csv", {
       download: true,
-      header: true,  // Az első sor oszlopfejlécek
+      header: true,
       skipEmptyLines: true,
       complete: function(results) {
         data = results.data;
-        document.getElementById("status").textContent = `Betöltve: ${data.length} sor`;
       },
       error: function(err) {
-        document.getElementById("status").textContent = "Hiba a CSV betöltésénél.";
-        console.error(err);
+        console.error("Hiba a CSV betöltésénél:", err);
       }
     });
 
-    // Keresés valós időben
+    // Keresés
     document.getElementById("searchBox").addEventListener("input", function() {
       const q = this.value.trim().toLowerCase();
       const resultsDiv = document.getElementById("results");
@@ -53,7 +75,6 @@
         return;
       }
 
-      // Feltételezett oszlopnevek: item_name, character, slot
       const matches = data.filter(row =>
         (row.item_name || "").toLowerCase().includes(q)
       );
