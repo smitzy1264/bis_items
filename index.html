@@ -73,7 +73,8 @@
   <script>
     let data = [];
 
-    Papa.parse("items.csv", {
+    // cache-törlő trükk: minden betöltésnél egyedi URL
+    Papa.parse("items.csv?nocache=" + Date.now(), {
       download: true,
       header: true,
       skipEmptyLines: true,
