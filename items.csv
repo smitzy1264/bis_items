@@ -1,35 +1,35 @@
 ﻿item_name;character;slot;spec;icon_url;phase
-T7;warlock;head;Affliction;t7head.jpg;Phase 1
-Wyrmrest Necklace of Power;warlock;neck;Affliction;wyrmrest.jpg;Phase 1
-T7;warlock;shoulder;Affliction;t7shoulder.jpg;Phase 1
-Pennant Cloak;warlock;back;Affliction;pennant.jpg;Phase 1
-T7;warlock;chest;Affliction;t7chest.jpg;Phase 1
-Unsullied Cuffs;warlock;wrist;Affliction;unsullied.jpg;Phase 1
-T7;warlock;hands;Affliction;t7hands.jpg;Phase 1
-Leash of Heedless Magic;warlock;waist;Affliction;leash.jpg;Phase 1
-Leggins of the Wanton Spellcaster;warlock;legs;Affliction;wanton.jpg;Phase 1
-Arcanic Tramplers;warlock;feet;Affliction;arcanic.jpg;Phase 1
-Signet of Manifested Pain;warlock;ring;Affliction;mpaint.jpg;Phase 1
-Band of Channeled Magic;warlock;ring;Affliction;cmagic.jpg;Phase 1
-Dying Curse;warlock;trinket;Affliction;dying_curse.jpg;Phase 1
-Illustration of the Dragon Soul;warlock;trinket;Affliction;ids.jpg;Phase 1
-The Turning Tide;warlock;weapon;Affliction;ttt.jpg;Phase 1
-Matriarch's Spawn;warlock;offhand;Affliction;spawn.jpg;Phase 1
-Wand of the Archlich;warlock;relic;Affliction;archlich.jpg;Phase 1
-T7;rogue;head;Assassination;t7head.jpg;Phase 1
-Favor of the Dragon Queen;rogue;neck;Assassination;fdq.jpg;Phase 1
-T7;rogue;shoulder;Assassination;t7shoulders.jpg;Phase 1
-Drape of the Deadly Foe;rogue;back;Assassination;drape.jpg;Phase 1
-Chestguard of the Recluse;rogue;chest;Assassination;reclujse.jpg;Phase 1
-Thrusting Bands;rogue;wrist;Assassination;thrustingbands.jpg;Phase 1
-T7;rogue;hands;Assassination;t7hands.jpg;Phase 1
-Stalk-Skin Belt;rogue;waist;Assassination;ssbelt.jpg;Phase 1
-T7;rogue;legs;Assassination;t7pants.jpg;Phase 1
-Footwraps of Vile Deceit;rogue;feet;Assassination;viledeceit.jpg;Phase 1
-Surge Needle Ring;rogue;ring;Assassination;surgeneedle.jpg;Phase 1
-Ring of Invincibility;rogue;ring;Assassination;roi.jpg;Phase 1
-Darkmoon Card: Greatness;rogue;trinket;Assassination;dmca.jpg;Phase 1
-Mirror of Truth;rogue;trinket;Assassination;mirroroftruth.jpg;Phase 1
-Webbed Death;rogue;weapon;Assassination;webbeddeath.jpg;Phase 1
-Sinister Revenge;rogue;offhand;Assassination;sinisterrev.jpg;Phase 1
-Envoy of Mortality;rogue;relic;Assassination;envoy.jpg;Phase 1
+T7;warlock;head;Affliction warlock;t7head.jpg;Phase 1
+Wyrmrest Necklace of Power;warlock;neck;Affliction warlock;wyrmrest.jpg;Phase 1
+T7;warlock;shoulder;Affliction warlock;t7shoulder.jpg;Phase 1
+Pennant Cloak;warlock;back;Affliction warlock;pennant.jpg;Phase 1
+T7;warlock;chest;Affliction warlock;t7chest.jpg;Phase 1
+Unsullied Cuffs;warlock;wrist;Affliction warlock;unsullied.jpg;Phase 1
+T7;warlock;hands;Affliction warlock;t7hands.jpg;Phase 1
+Leash of Heedless Magic;warlock;waist;Affliction warlock;leash.jpg;Phase 1
+Leggins of the Wanton Spellcaster;warlock;legs;Affliction warlock;wanton.jpg;Phase 1
+Arcanic Tramplers;warlock;feet;Affliction warlock;arcanic.jpg;Phase 1
+Signet of Manifested Pain;warlock;ring;Affliction warlock;mpain.jpg;Phase 1
+Band of Channeled Magic;warlock;ring;Affliction warlock;cmagic.jpg;Phase 1
+Dying Curse;warlock;trinket;Affliction warlock;dying_curse.jpg;Phase 1
+Illustration of the Dragon Soul;warlock;trinket;Affliction warlock;ids.jpg;Phase 1
+The Turning Tide;warlock;weapon;Affliction warlock;ttt.jpg;Phase 1
+Matriarch's Spawn;warlock;offhand;Affliction warlock;spawn.jpg;Phase 1
+Wand of the Archlich;warlock;relic;Affliction warlock;archlich.jpg;Phase 1
+T7;rogue;head;Assassination rogue;t7head.jpg;Phase 1
+Favor of the Dragon Queen;rogue;neck;Assassination rogue;fdq.jpg;Phase 1
+T7;rogue;shoulder;Assassination rogue;t7shoulders.jpg;Phase 1
+Drape of the Deadly Foe;rogue;back;Assassination rogue;drape.jpg;Phase 1
+Chestguard of the Recluse;rogue;chest;Assassination rogue;recluse.jpg;Phase 1
+Thrusting Bands;rogue;wrist;Assassination rogue;thrustingbands.jpg;Phase 1
+T7;rogue;hands;Assassination rogue;t7hands.jpg;Phase 1
+Stalk-Skin Belt;rogue;waist;Assassination rogue;ssbelt.jpg;Phase 1
+T7;rogue;legs;Assassination rogue;t7pants.jpg;Phase 1
+Footwraps of Vile Deceit;rogue;feet;Assassination rogue;viledeceit.jpg;Phase 1
+Surge Needle Ring;rogue;ring;Assassination rogue;surgeneedle.jpg;Phase 1
+Ring of Invincibility;rogue;ring;Assassination rogue;roi.jpg;Phase 1
+Darkmoon Card: Greatness;rogue;trinket;Assassination rogue;dmca.jpg;Phase 1
+Mirror of Truth;rogue;trinket;Assassination rogue;mirroroftruth.jpg;Phase 1
+Webbed Death;rogue;weapon;Assassination rogue;webbeddeath.jpg;Phase 1
+Sinister Revenge;rogue;offhand;Assassination rogue;sinisterrev.jpg;Phase 1
+Envoy of Mortality;rogue;relic;Assassination rogue;envoy.jpg;Phase 1
