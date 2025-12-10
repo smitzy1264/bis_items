@@ -1,23 +1,22 @@
-﻿item_name;character;slot;spec;icon_url
-shadowmourne;warrior;weapon;Arms;
-shadowmourne;pala;weapon;Retribution;
-dying curse;warlock;trinket;Demonolgy;
-dying curse;priest;trinket;Shadow;
-T7;warlock;head;Affliction;t7head.jpg
-Wyrmrest Necklace of Power;warlock;neck;Affliction;wyrmrest.jpg
-T7;warlock;shoulder;Affliction;t7shoulder.jpg
-Pennant Cloak;warlock;back;Affliction;pennant.jpg
-T7;warlock;chest;Affliction;t7chest.jpg
-Unsullied Cuffs;warlock;wrist;Affliction;unsullied.jpg
-T7;warlock;hands;Affliction;t7hands.jpg
-Leash of Heedless Magic;warlock;waist;Affliction;leash.jpg
-Leggins of the Wanton Spellcaster;warlock;legs;Affliction;wanton.jpg
-Arcanic Tramplers;warlock;feet;Affliction;arcanic.jpg
-Signet of Manifested Pain;warlock;ring;Affliction;mpain.jpg
-Band of Channeled Magic;warlock;ring;Affliction;cmagic.jpg
-Dying Curse;warlock;trinket;Affliction;dying_curse.jpg
-Illustration of the Dragon Soul;warlock;trinket;Affliction;ids.jpg
-The Turning Tide;warlock;weapon;Affliction;ttt.jpg
-Matriarch's Spawn;warlock;offhand;Affliction;spawn.jpg
-Wand of the Archlich;warlock;relic;Affliction;archlich.jpg
-
+﻿item_name;character;slot;spec;icon_url;phase
+shadowmourne;warrior;weapon;Arms;;
+shadowmourne;pala;weapon;Retribution;;
+dying curse;warlock;trinket;Demonolgy;;Phase 1
+dying curse;priest;trinket;Shadow;;Phase 1
+T7;warlock;head;Affliction;t7head.jpg;Phase 1
+Wyrmrest Necklace of Power;warlock;neck;Affliction;wyrmrest.jpg;Phase 1
+T7;warlock;shoulder;Affliction;t7shoulder.jpg;Phase 1
+Pennant Cloak;warlock;back;Affliction;pennant.jpg;Phase 1
+T7;warlock;chest;Affliction;t7chest.jpg;Phase 1
+Unsullied Cuffs;warlock;wrist;Affliction;unsullied.jpg;Phase 1
+T7;warlock;hands;Affliction;t7hands.jpg;Phase 1
+Leash of Heedless Magic;warlock;waist;Affliction;leash.jpg;Phase 1
+Leggins of the Wanton Spellcaster;warlock;legs;Affliction;wanton.jpg;Phase 1
+Arcanic Tramplers;warlock;feet;Affliction;arcanic.jpg;Phase 1
+Signet of Manifested Pain;warlock;ring;Affliction;mpaint.jpg;Phase 1
+Band of Channeled Magic;warlock;ring;Affliction;cmagic.jpg;Phase 1
+Dying Curse;warlock;trinket;Affliction;dying_curse.jpg;Phase 1
+Illustration of the Dragon Soul;warlock;trinket;Affliction;ids.jpg;Phase 1
+The Turning Tide;warlock;weapon;Affliction;ttt.jpg;Phase 1
+Matriarch's Spawn;warlock;offhand;Affliction;spawn.jpg;Phase 1
+Wand of the Archlich;warlock;relic;Affliction;archlich.jpg;Phase 1
