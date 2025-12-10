@@ -43,8 +43,9 @@
     .tooltip {
       visibility: hidden;
       position: absolute;
-      top: -10px; /* kicsit a szöveg fölé */
-      left: 105%;
+      bottom: 100%;       /* a szöveg fölé helyezi */
+      left: 50%;          /* középre igazítja */
+      transform: translateX(-50%); /* középre húzza */
       z-index: 1;
       background: rgba(0,0,0,0.8);
       padding: 5px;
@@ -148,4 +149,5 @@
   </script>
 </body>
 </html>
+
 
